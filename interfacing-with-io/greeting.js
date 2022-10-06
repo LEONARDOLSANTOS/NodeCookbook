@@ -3,6 +3,6 @@ process.stdin.on("data", (data) => {
     if (name !== "") {
         process.stdout.write(`Hello ${name}, wellcome to NODEJS World!!`);
     } else {
-        process.stdout.write(`Realy!!!, nothing to say?`);
+        process.stderr.write(`Realy!!!, nothing to say?`);
     }
 });
