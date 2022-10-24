@@ -12,5 +12,3 @@ fs.watch(file, (eventType, filename) => {
     console.log(`${filename} updated ${time}`); 
     console.log(`evento: ${eventType}`); 
 });
-
-
