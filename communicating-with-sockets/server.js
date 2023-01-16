@@ -6,7 +6,7 @@ net.createServer((socket) => {
     console.log('client connected');
     // when serve get data
     socket.on("data", (name) => {
-        // serve write on socket a response
+        // serve write on socket a res
         socket.write(`Hello ${name} from server!`);
     });
 }).listen(PORT, HOSTNAME);

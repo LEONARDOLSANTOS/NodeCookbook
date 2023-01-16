@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+learning-streams/file.txt
+transform-streams/file.txt
+file-upload/uploads
